@@ -32,7 +32,7 @@ int main()
     case 'f':
       puts("You selected new font");
       for (char c = 'A'; c < 'D'; c++)
-	print_char_5x7(c);
+	print_char_11x16(c);
       break;
     case 'a':
       puts("You selected arrow:");
